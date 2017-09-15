@@ -1,3 +1,50 @@
 * {
     background-color:rgb(255, 220, 227);
+    outline: 2px solid red;
 }
+header {
+    padding: 5%;
+}
+#divInterno {
+    background-color: #CACAEE;
+    padding: 2%;
+    margin: 2%;
+}
+#divInterno > * {
+    background-color: inherit;
+
+}
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.42;
+    border-radius: 15px;
+  }
+  .social:nth-child(0) {
+      background-color: blue;
+      color: white;
+  }
+  .fixed {
+      position: fixed;
+      width: 30px;
+      height: 30px;
+      display: block;
+  }
+  .fixed .btn-circle {
+ 
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+  }
+  .fixed i{
+background-color: inherit;     
+position: relative;
+bottom:-18%;
+
+  }
+  footer {
+      padding: 7%;
+  }
