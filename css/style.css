@@ -1,18 +1,25 @@
 * {
-    background-color:rgb(255, 220, 227);
+    background-color:#FDE6DB;
     outline: 2px solid red;
+    
+}
+.contenedor { 
 }
 header {
     padding: 5%;
 }
 #divInterno {
-    background-color: #CACAEE;
-    padding: 2%;
     margin: 2%;
+    padding: 5%;
+    background-color: #FFFFFF !important;
+    
 }
 #divInterno > * {
-    background-color: inherit;
+    background-color: #FFFFFF !important;
 
+}
+p a  {
+    color: black;
 }
 .btn-circle {
     width: 30px;
@@ -23,9 +30,9 @@ header {
     line-height: 1.42;
     border-radius: 15px;
   }
-  .social:nth-child(0) {
-      background-color: blue;
-      color: white;
+  .social a i:nth-child(1) {
+      background-color: #85CDD6;
+      color: #FFFFFF;
   }
   .fixed {
       position: fixed;
@@ -42,7 +49,6 @@ header {
   .fixed i{
 background-color: inherit;     
 position: relative;
-bottom:-18%;
 
   }
   footer {
