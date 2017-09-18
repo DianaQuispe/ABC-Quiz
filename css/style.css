@@ -1,46 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 * {
-  background-color: rgb(255, 220, 227);
+    font-family: 'Source Code Pro', monospace;
+    background-color: #FDE6DB;
 }
+
+.btnQuiz {
+    margin: 4% 0%;
+    padding: 3%;
+    font-size: 1.5em;
+}
+
+.btnQuiz:hover {
+    color: firebrick;
+}
+
 header {
-  padding: 5%;
+    padding: 5%;
 }
+
 #divInterno {
-  background-color: #cacaee;
-  padding: 2%;
-  margin: 2%;
+    margin: 2%;
+    padding: 3%;
+    background-color: #FFFFFF !important;
+    transition: 8s;
 }
-#divInterno > * {
-  background-color: inherit;
+
+#divInterno>* {
+    background-color: #FFFFFF !important;
 }
+
+p a {
+    color: black;
+}
+
 .btn-circle {
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  padding: 6px 0;
-  font-size: 12px;
-  line-height: 1.42;
-  border-radius: 15px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.42;
+    border-radius: 15px;
 }
-.social:nth-child(0) {
-  background-color: blue;
-  color: white;
+
+.social a i:nth-child(1) {
+    background-color: #85CDD6;
+    color: #FFFFFF;
 }
+
 .fixed {
-  position: fixed;
-  width: 30px;
-  height: 30px;
-  display: block;
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    display: block;
 }
+
 .fixed .btn-circle {
-  width: 50px;
-  height: 50px;
-  border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
 }
+
 .fixed i {
-  background-color: inherit;
-  position: relative;
-  bottom: -18%;
+    background-color: inherit;
+    position: relative;
 }
+
+.contenedor {}
+
 footer {
-  padding: 7%;
+    padding: 7%;
 }
