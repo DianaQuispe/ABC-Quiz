@@ -66,14 +66,14 @@ const app = {
 
             $('.contenedor').append(`<h1>${app.item.wee.length} out of 5 correct!</h1>\
             <li>\
-                <ul>Which is the oldest airline in the world?<b> '${app.item.free[0]}'</b><font color="green"><b> '${app.item.goods[0]}'</b></font>  </ul>\
-                <ul>Which is the largest port in the world? <b>'${app.item.free[1]}</b><font color="green"><b> '${app.item.goods[1]}'</b></font></ul>\
-                <ul>What is the longest distance cycling backwards? <b>'${app.item.free[2]}'</b><font color="green"><b> '${app.item.goods[2]}'</b></font></ul>\
-                <ul>What is the highest speed ever reached by a school bus? <b>'${app.item.free[3]}'</b><font color="green"><b> '${app.item.goods[3]}'</b></font></ul>\
-                <ul>What is the longest car trip on one tank of gas? <b>'590 km/h'</b><font color="green"><b> '${app.item.goods[4]}'</b></font></ul>\
+                <ul>Which is the oldest airline in the world?<b> TU RESPUESTA: <font color="blue">'${app.item.free[0]}'</b></font><b>RESPUESTA CORRECTA: <font color="green">'${app.item.goods[0]}'</b></font>  </ul>\
+                <ul>Which is the largest port in the world? <b> TU RESPUESTA: <font color="blue">'${app.item.free[1]}'</b></font>><b>RESPUESTA CORRECTA: <font color="green">'${app.item.goods[1]}'</b></font></ul>\
+                <ul>What is the longest distance cycling backwards? <b> TU RESPUESTA: <font color="blue">'${app.item.free[2]}'</b></font><b>RESPUESTA CORRECTA: <font color="green">'${app.item.goods[2]}'</b></font></ul>\
+                <ul>What is the highest speed ever reached by a school bus? <b> TU RESPUESTA: <font color="blue">'${app.item.free[3]}'</b></font><b>RESPUESTA CORRECTA: <font color="green">'${app.item.goods[3]}'</b></font></ul>\
+                <ul>What is the longest car trip on one tank of gas? <b> TU RESPUESTA: <font color="blue">'${app.item.free[4]}'</b></font></b><b>RESPUESTA CORRECTA:S <font color="green">'${app.item.goods[4]}'</b></font></ul>\
 
             </li>`);
-            $('.contenedor').append(`<button id="play" type="submit" class="btn btn-primary" name="B1"> <span class="glyphicon glyophicon-shopping-cart"></span>PLAY AGAIN </button>`);
+            $('body').append(`<button id="play" type="submit" class="center-block btn btn-primary" name="B1"> <span class="glyphicon glyophicon-shopping-cart"></span>PLAY AGAIN </button>`);
 
 
 
