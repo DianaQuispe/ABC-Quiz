@@ -61,6 +61,10 @@ p a {
     position: relative;
 }
 
+.social {
+    padding: 3%;
+}
+
 .contenedor {}
 
 footer {

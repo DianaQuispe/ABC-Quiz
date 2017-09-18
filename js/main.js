@@ -11,8 +11,8 @@ const app = {
         num: 0,
         src: ["images/plane.svg", "images/ship.svg", "images/bycicle.svg", "images/bus.svg", "images/car.svg"],
         questions: ["Which is the oldest airline in the world?", "Which is the largest port in the world?", "What is the longest distance cycling backwards?", "What is the highest speed ever reached by a school bus?", "What is the longest car trip on one tank of gas?"],
-        answers: [["Avianca", 'KLM', 'Qantas'], ['A Port of Shanghai', ' Port of Singapore', 'Port of Rotterdam'], ['89.30km', '675.10km', '337.60km'], ['590 km/h', '320 km/h', '245 km/h'], ['2617 km', '3568 km', '1732 km']],
-        goods: ["'KLM'", "'A Port of Shanghai'", "'337.60km'", "'590 km/h'", "'2617 km'"],
+        answers: [["Avianca", 'KLM', 'Qantas'], ['Port of Shanghai', ' Port of Singapore', 'Port of Rotterdam'], ['89.30km', '675.10km', '337.60km'], ['590 km/h', '320 km/h', '245 km/h'], ['2617 km', '3568 km', '1732 km']],
+        goods: ["'KLM'", "'Port of Shanghai'", "'337.60km'", "'590 km/h'", "'2617 km'"],
 
     },
     init: function () {
@@ -33,7 +33,7 @@ const app = {
     setup: () => {
         $('.btnQuiz').click(function () {
             app.item.free.push($(this).text());
-            if (app.item.goods[app.item.num] == app.item.free) {
+            if (app.item.goods[app.item.num] == app.item.free[app.item.num]) {
                 app.item.wee.push($(this).text())
             }
             console.log($(this).text());
