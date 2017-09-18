@@ -1,16 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
 * {
+    font-family: 'Source Code Pro', monospace;
+
     background-color:#FDE6DB;
-    outline: 2px solid red;
     
 }
-.contenedor { 
+.btnQuiz {
+    
+    margin: 4% 0%;
+    padding: 3%;
+    font-size: 1.5em;
+}
+.btnQuiz:hover {
+    color: firebrick;
+  content :"sda";
 }
 header {
     padding: 5%;
 }
 #divInterno {
     margin: 2%;
-    padding: 5%;
+    padding: 3%;
     background-color: #FFFFFF !important;
     
 }
