@@ -2,9 +2,11 @@
 * {
     font-family: 'Source Code Pro', monospace;
     background-color: #FDE6DB;
+    transition: 3s;
 }
 
 .btnQuiz {
+    transition: 3s;
     margin: 4% 0%;
     padding: 3%;
     font-size: 1.5em;
@@ -22,7 +24,7 @@ header {
     margin: 2%;
     padding: 3%;
     background-color: #FFFFFF !important;
-    transition: 8s;
+    transition: 3s;
 }
 
 #divInterno>* {

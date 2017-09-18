@@ -61,6 +61,9 @@ const app = {
     submit: function () {
         $('#submit').click(function () {
             $('.contenedor').empty();
+            $('.contenedor').attr('id', 'divInterno');
+
+
             $('.contenedor').append(`<h1>${app.item.wee.length} out of 5 correct!</h1>\
             <li>\
                 <ul>Which is the oldest airline in the world?<b> '${app.item.free[0]}'</b><font color="green"><b> '${app.item.goods[0]}'</b></font>  </ul>\
