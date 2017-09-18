@@ -20,6 +20,10 @@ header {
     padding: 5%;
 }
 
+.colorGreen {
+    color: green;
+}
+
 #divInterno {
     margin: 2%;
     padding: 3%;

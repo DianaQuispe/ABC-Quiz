@@ -5,7 +5,6 @@ function myFunction(x) {
 }
 const app = {
     item: {
-        letras: ['a', 'b', 'c'],
         free: [],
         wee: [],
         num: 0,
@@ -35,6 +34,7 @@ const app = {
             app.item.free.push($(this).text());
             if (app.item.goods[app.item.num] == app.item.free[app.item.num]) {
                 app.item.wee.push($(this).text())
+                $(this).addClass("colorGreen");
             }
             console.log($(this).text());
             app.item.src.shift();
@@ -43,7 +43,7 @@ const app = {
             app.init();
             app.item.num++;
 
-        })
+        });
         if (app.item.num == 3) {
             app.finish();
 
@@ -73,6 +73,7 @@ const app = {
                 <ul>What is the longest car trip on one tank of gas? <b>'590 km/h'</b><font color="green"><b> '${app.item.goods[4]}'</b></font></ul>\
 
             </li>`);
+            $('.contenedor').append(`<button id="play" type="submit" class="btn btn-primary" name="B1"> <span class="glyphicon glyophicon-shopping-cart"></span>PLAY AGAIN </button>`);
 
 
 
