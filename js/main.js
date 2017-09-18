@@ -74,6 +74,12 @@ const app = {
 
             </li>`);
             $('body').append(`<button id="play" type="submit" class="center-block btn btn-primary" name="B1"> <span class="glyphicon glyophicon-shopping-cart"></span>PLAY AGAIN </button>`);
+            $('#play').click(function () {
+                $('.contenedor').empty();
+                app.init();
+
+
+            })
 
 
 
