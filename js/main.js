@@ -5,7 +5,6 @@ function myFunction(x) {
 }
 const app = {
     item: {
-        text: [],
         letras: ['a', 'b', 'c'],
         free: [],
         wee: [],
@@ -51,11 +50,21 @@ const app = {
         }
     },
     finish: function () {
+        $('.contenedor').empty();
         $('#imagenes').attr('src', "images/truck.svg");
-        $('#questions').append('<h1>Here are you answers: </h1>');
-        $('.answers').append(`<div class="col-md-4">Which is the oldest airline in the world? </br> Which is the largest port in the world?</br> What is the longest distance cycling backwards?</br> What is the highest speed ever reached by a school bus?</br> What is the longest car trip on one tank of gas? </div> `);
+        $('.contenedor').append('<h1>Here are you answers: </h1>');
+        $('.contenedor').append(`<div class="col-md-12">Which is the oldest airline in the world? '${app.item.free[0]}' </br> Which is the largest port in the world? '${app.item.free[1]}'</br> What is the longest distance cycling backwards? '${app.item.free[2]}'</br> What is the highest speed ever reached by a school bus? '${app.item.free[3]}'</br> What is the longest car trip on one tank of gas? '${app.item.free[4]}'</div> `);
+        $('.contenedor').append(`<button id="submit" type="submit" class="btn btn-primary" name="B1"> <span class="glyphicon glyophicon-shopping-cart"></span>Submit </button>`);
 
+
+    },
+    submit: function {
+        $('#submit').click(function () {
+
+        })
     }
+
+
 }
 
 $(document).ready(app.init);

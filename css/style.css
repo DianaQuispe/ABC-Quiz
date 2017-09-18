@@ -43,11 +43,6 @@ p a {
     border-radius: 15px;
 }
 
-.social a i:nth-child(1) {
-    background-color: #85CDD6;
-    color: #FFFFFF;
-}
-
 .fixed {
     position: fixed;
     width: 30px;
